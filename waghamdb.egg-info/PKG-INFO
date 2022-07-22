@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
-Name: wagham-db-testadirapa
-Version: 0.0.1
-Summary: Database Python interface for all the Wagham-related projects
+Name: waghamdb
+Version: 0.0.2
+Summary: MongoDB Python interface for all the Wagham-related projects
 Author-email: Vincenzo Claudio Pierro <v.c.pierro@gmail.com>
 License: Copyright 2022
         

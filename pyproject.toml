@@ -3,12 +3,12 @@ requires = ["setuptools>=61.0", "pymongo>=4.0.1", "werkzeug>=2.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "wagham_db_testadirapa"
-version = "0.0.1"
+name = "waghamdb"
+version = "0.0.2"
 authors = [
   { name="Vincenzo Claudio Pierro", email="v.c.pierro@gmail.com" },
 ]
-description = "Database Python interface for all the Wagham-related projects"
+description = "MongoDB Python interface for all the Wagham-related projects"
 readme = "README.md"
 license = { file="LICENSE" }
 requires-python = ">=3.7"
