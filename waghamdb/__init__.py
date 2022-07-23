@@ -2,7 +2,7 @@ import pymongo
 import random
 from typing import Dict, List, Tuple
 from datetime import datetime as dt
-from database.exceptions import InsufficientFundsException, InsufficientItemsException, ItemNotFoundException, NoActiveCharacterException, PlayerNotFoundException
+from .exceptions import InsufficientFundsException, InsufficientItemsException, ItemNotFoundException, NoActiveCharacterException, PlayerNotFoundException
 from .pipelines import *
 from pymongo import MongoClient
 from pymongo.client_session import ClientSession
@@ -687,7 +687,7 @@ class WaghamDB:
             "unlucky_players": unlucky_players
         }
 
-    def get_active_character(self, player):
+    def get_active_character(self, player: str) -> Dict:
         return self.ptx.characters.find_one({"player": player, "status": "active"})
 
     def get_ms_list(self, character):

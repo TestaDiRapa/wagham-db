@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: waghamdb
-Version: 0.0.2
+Version: 0.0.3
 Summary: MongoDB Python interface for all the Wagham-related projects
 Author-email: Vincenzo Claudio Pierro <v.c.pierro@gmail.com>
 License: Copyright 2022
